@@ -24,11 +24,12 @@ background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, F
 header .logo
 {
     position: relative;
-    font-size: 30px;
+    font-size: 35px;
     color: #ffff;
     text-decoration: none;
     font-weight: 500;
-    
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 60px ;
 }
 
 header .navigation
@@ -83,7 +84,7 @@ header .submenu1 li
 
 header .submenu1 li:nth-child(1)
 {
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 header .search
@@ -135,7 +136,7 @@ header .navigation li:hover .submenu1
     content: '';
     display: block;
     position: absolute;
-    background-color: #ff3c78;
+    background-color: goldenrod;
     height: 3px;
     width: 0;
     left: 0;
@@ -148,3 +149,82 @@ header .navigation li a:hover::after
 {
     width: 100%;
 } 
+
+@media (max-width : 1381px ) 
+{
+   header
+   {
+       padding: 10px 20px;
+       flex-direction:column;
+
+   } 
+   header .submenu1
+{
+    position: absolute;
+    background: #000428;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    width: 195px;
+    left: 0;
+    margin-top: 19px;
+    display: none;
+}
+header .logo
+{
+    position: relative;
+    font-size: 30px;
+    color: #ffff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-bottom: 10px;
+    margin-right: 60px;
+}
+header .search
+{
+    position: relative;
+    width: 300px;
+    height: 40px;
+    margin-bottom: 15px;
+}
+
+}
+
+@media (max-width : 500px ) 
+{
+   header
+   {
+       padding: 5px 5px;
+       flex-direction:column;
+
+   } 
+   header .submenu1
+{
+    position: absolute;
+    background: #000428;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    width: 195px;
+    left: 0;
+    margin-top: 19px;
+    display: none;
+}
+header .logo
+{
+    position: relative;
+    font-size: 30px;
+    color: #ffff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-bottom: 10px;
+    margin-right: 60px;
+}
+header .search
+{
+    position: relative;
+    width: 300px;
+    height: 40px;
+    margin-bottom: 15px;
+}
+}
