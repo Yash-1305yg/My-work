@@ -13,11 +13,12 @@
 .centerimage
 {
     width: 80%;
-    background-image: url(./assests/delhi3.jpg);
+    margin-left: 12%;
     height: 500px;
     background-repeat: no-repeat;
     background-size:cover;
-    margin-bottom: 700px;
+    margin-bottom: 300px;
+    
 
 }
 
