@@ -73,7 +73,7 @@ footer{
 .foot-st-sec-1 a :hover ,.foot-st-sec-2 a:hover , .foot-st-sec-3 a:hover ,.foot-ut-links a:hover ,.foot-contact a:hover ,.foot-sec-3 a:hover{
     color:#1597E5;
 }
-span{
+.foot-contact span{
     color: white;
     padding: 10px;
 }
@@ -210,19 +210,19 @@ hr{
     {
         padding: 5px;
     }
-    a{
+    .foot-st-sec-1 a ,.foot-st-sec-2 a ,.foot-st-sec-3 a ,.foot-ut-links a ,.foot-contact a ,.foot-sec-3 a{
         text-decoration: none;
         color: white;
     font-size:unset;
     }
-    a:hover{
+    .foot-st-sec-1 a :hover ,.foot-st-sec-2 a:hover , .foot-st-sec-3 a:hover ,.foot-ut-links a:hover ,.foot-contact a:hover ,.foot-sec-3 a:hover{
         color:#1597E5;
     }
-    span{
+    .foot-contact span{
         color: white;
         padding: 10px;
     }
-    i{
+    .foot-contact i{
         color: white;
         font-size: 10px;
     }
@@ -359,18 +359,20 @@ hr{
     {
         padding: 5px;
     }
-    a{
+    .foot-st-sec-1 a ,.foot-st-sec-2 a ,.foot-st-sec-3 a ,.foot-ut-links a ,.foot-contact a ,.foot-sec-3 a
+        {
         text-decoration: none;
         color: white;
     }
-    a:hover{
+    .foot-st-sec-1 a :hover ,.foot-st-sec-2 a:hover , .foot-st-sec-3 a:hover ,.foot-ut-links a:hover ,.foot-contact a:hover ,.foot-sec-3 a:hover{
+        
         color:#1597E5;
     }
-    span{
+    .foot-contact span{
         color: grey;
         padding: 10px;
     }
-    i{
+    .foot-contact i{
         color: white;
         font-size: 10px;
     }
